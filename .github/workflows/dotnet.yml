@@ -20,7 +20,6 @@ jobs:
       run: dotnet restore
     - name: Build
       run: dotnet build --configuration Release --no-restore 
-      working-directory: ./src/
     - name: Publish  
       uses: rohith/publish-nuget@v2
       with:   
