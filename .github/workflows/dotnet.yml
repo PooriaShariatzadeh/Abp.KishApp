@@ -28,5 +28,5 @@ jobs:
       uses: rohith/publish-nuget@v2
       with:   
        PROJECT_FILE_PATH: src/Abp.KishApp.SMSIR/Abp.KishApp.SMSIR.csproj  
-       NUGET_KEY: ${{secrets.NUGET_API_KEY}} 
+       NUGET_KEY: ${{NUGET_API_KEY.NUGET_API_KEY}} 
 
